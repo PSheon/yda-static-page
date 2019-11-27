@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f89572b781b43820e09f920f0f00b6fe",
+    "revision": "3c4c48300e51c3dbf7b70f5f72ebf47e",
     "url": "/yda-static-page/index.html"
   },
   {
