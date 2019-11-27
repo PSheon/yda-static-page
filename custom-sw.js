@@ -1,4 +1,4 @@
-importScripts("/yda-static-page/precache-manifest.dfdc2746ef64691de5ede07ecaaec78b.js", "/yda-static-page/workbox-v4.3.1/workbox-sw.js");
+importScripts("/yda-static-page/precache-manifest.96f37a8aa85c2dd1c39ddcb7b1412470.js", "/yda-static-page/workbox-v4.3.1/workbox-sw.js");
 workbox.setConfig({modulePathPrefix: "/yda-static-page/workbox-v4.3.1"});
 /* eslint-disable no-undef */
 // See https://developers.google.com/web/tools/workbox/guides/configure-workbox
