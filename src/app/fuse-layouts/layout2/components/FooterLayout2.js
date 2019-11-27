@@ -7,6 +7,8 @@ import { useSelector } from 'react-redux';
 import clsx from 'clsx';
 import { ThemeProvider } from '@material-ui/styles';
 
+import LOGO_PNG from 'assets/images/logos/logo.png';
+
 // const PrivacyDB = [
 //   {
 //     id: '1',
@@ -79,86 +81,9 @@ function FooterLayout2(props) {
         color="default"
       >
         <div className="px-16 pt-24 flex flex-col items-center justify-between sm:py-0 container w-full">
-          {/* Social */}
-          <div className="flex justify-center items-center md:w-400">
-            <div
-              className={clsx(
-                classes.logoImgWrapper,
-                'w-64 p-12 cursor-pointer'
-              )}
-            >
-              <a href="####" target="_blank" rel="noopener noreferrer">
-                <img
-                  alt="line Icon"
-                  src="/assets/images/footer/line-icon.svg"
-                />
-              </a>
-            </div>
-            <div
-              className={clsx(
-                classes.logoImgWrapper,
-                'w-64 p-12 cursor-pointer'
-              )}
-            >
-              <a href="####" target="_blank" rel="noopener noreferrer">
-                <img
-                  alt="facebook Icon"
-                  src="/assets/images/footer/facebook-icon.svg"
-                />
-              </a>
-            </div>
-            <div
-              className={clsx(
-                classes.logoImgWrapper,
-                'w-64 p-12 cursor-pointer'
-              )}
-            >
-              <a href="####" target="_blank" rel="noopener noreferrer">
-                <img
-                  alt="instagram Icon"
-                  src="/assets/images/footer/instagram-icon.svg"
-                />
-              </a>
-            </div>
-            <div
-              className={clsx(
-                classes.logoImgWrapper,
-                'w-64 p-12 cursor-pointer'
-              )}
-            >
-              <a href="####" target="_blank" rel="noopener noreferrer">
-                <img
-                  alt="youtube Icon"
-                  src="/assets/images/footer/youtube-icon.svg"
-                />
-              </a>
-            </div>
-            <div
-              className={clsx(
-                classes.logoImgWrapper,
-                'w-64 p-12 cursor-pointer'
-              )}
-            >
-              <a
-                href="mailto:hsiuhuan@mail.yda.gov.tw"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  alt="email Icon"
-                  src="/assets/images/footer/email-icon.svg"
-                />
-              </a>
-            </div>
-          </div>
-
           <Hidden mdUp>
             <div className="flex flex-col justify-center items-center">
-              <img
-                className="w-256 p-12"
-                src="assets/images/logos/logo.png"
-                alt="logo"
-              />
+              <img className="w-256 p-12" src={LOGO_PNG} alt="logo" />
               <div className="flex flex-col p-12 w-full text-center">
                 <Typography variant="subtitle1" className="text-white">
                   Address | 14F., No.5, Xuzhou Rd., Zhongzheng District, Taipei
@@ -193,11 +118,7 @@ function FooterLayout2(props) {
           </Hidden>
           <Hidden smDown>
             <div className="flex flex-row justify-center items-center w-full pb-24">
-              <img
-                className="w-256 p-12"
-                src="assets/images/logos/logo.png"
-                alt="logo"
-              />
+              <img className="w-256 p-12" src={LOGO_PNG} alt="logo" />
               <div className="flex flex-col p-12">
                 <Typography
                   variant="subtitle1"
@@ -226,7 +147,7 @@ function FooterLayout2(props) {
             </Typography>
 
             <div className="flex justify-around items-center">
-              <Link to="/login">Admin Panel</Link>
+              <Link to="/####">Admin Panel</Link>
             </div>
 
             {/* <div className="flex justify-around items-center">

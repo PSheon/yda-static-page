@@ -108,7 +108,7 @@ function NewsListPage(props) {
           className="mt-16 sm:mt-40 flex items-center mb-12"
           component={Link}
           role="button"
-          to="/home"
+          to="/"
           color="inherit"
         >
           <Icon className="mr-4 text-20">arrow_back</Icon>

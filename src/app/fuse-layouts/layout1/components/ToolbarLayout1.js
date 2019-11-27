@@ -7,6 +7,8 @@ import NavbarMobileToggleButton from 'app/fuse-layouts/shared-components/NavbarM
 import UserMenu from 'app/fuse-layouts/shared-components/UserMenu';
 import { useSelector } from 'react-redux';
 
+import LOGO_PNG from 'assets/images/logos/logo.png';
+
 const useStyles = makeStyles(theme => ({
   separator: {
     width: 1.5,
@@ -37,13 +39,9 @@ function ToolbarLayout1(props) {
             <Hidden lgUp>
               <NavbarMobileToggleButton className="w-64 h-64 p-0" />
               <div className={classes.separator} />
-              <Link to="/home">
+              <Link to="/">
                 {/* <Avatar className="mx-5" alt="logo" src="assets/images/logos/brand-logo.svg" /> */}
-                <img
-                  className="mx-5 h-30 sm:h-40"
-                  alt="logo"
-                  src="assets/images/logos/logo.png"
-                />
+                <img className="mx-5 h-30 sm:h-40" alt="logo" src={LOGO_PNG} />
               </Link>
               {/* <Typography className="text-16 font-light font-extrabold" color="textPrimary">青年職涯發展中心</Typography> */}
             </Hidden>

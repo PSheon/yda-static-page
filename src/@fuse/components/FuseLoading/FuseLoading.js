@@ -18,7 +18,7 @@ function FuseLoading(props) {
 
 	return (
 		<div className="flex flex-1 flex-col items-center justify-center">
-			<Typography className="text-20 mb-16" color="textSecondary">載入中...</Typography>
+			<Typography className="text-20 mb-16" color="textSecondary">Loading...</Typography>
 			{/* <img className="w-256" alt="logo" src="assets/images/shared/loading-2.svg" /> */}
 			<LoadingSpinner width="128" height="128" />
 			{/* <LinearProgress className="w-xs" color="secondary" /> */}

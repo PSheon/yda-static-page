@@ -47,7 +47,7 @@ function Error404Page() {
           </Typography>
         </FuseAnimate>
 
-        <Link className="font-medium" to="/home">
+        <Link className="font-medium" to="/">
           回到首頁
         </Link>
       </div>

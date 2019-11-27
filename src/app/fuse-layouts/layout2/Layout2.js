@@ -13,6 +13,8 @@ import FooterLayout2 from './components/FooterLayout2';
 // import RightSideLayout2 from './components/RightSideLayout2';
 // import SettingsPanel from 'app/fuse-layouts/shared-components/SettingsPanel';
 
+import HOME_BG from 'assets/images/backgrounds/home-bg.svg';
+
 const useStyles = makeStyles(theme => ({
   root: {
     position: 'relative',
@@ -21,7 +23,6 @@ const useStyles = makeStyles(theme => ({
     width: '100%',
     height: '100%',
     overflow: 'hidden',
-    backgroundImage: 'url(/assets/images/backgrounds/home-bg.svg)',
     '&.boxed': {
       maxWidth: 1400,
       margin: '0 auto',
@@ -73,7 +74,13 @@ function Layout2(props) {
   return (
     <AppContext.Consumer>
       {({ routes }) => (
-        <div id="fuse-layout" className={clsx(classes.root, config.mode)}>
+        <div
+          id="fuse-layout"
+          className={clsx(classes.root, config.mode)}
+          style={{
+            backgroundImage: `url(${HOME_BG})`
+          }}
+        >
           {config.leftSidePanel.display && <LeftSideLayout2 />}
 
           <div className="flex flex-1 flex-col overflow-hidden relative">

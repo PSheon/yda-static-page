@@ -8,7 +8,7 @@ export const LandingPageConfig = {
   },
   routes: [
     {
-      path: '/home',
+      path: '/',
       component: React.lazy(() => import('./LandingPage'))
     }
   ]

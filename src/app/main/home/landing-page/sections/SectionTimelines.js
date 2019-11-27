@@ -12,7 +12,21 @@ import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import '../styles/VerticalTimeline.css';
 import '../styles/VerticalTimelineElement.css';
 
-import { imageNameToPathConverter } from 'app/utils';
+// import NEWS_1 from 'assets/images/news/admin-oRudn2rF1FW3raumDcahmy.jpeg';
+// import NEWS_2 from 'assets/images/news/admin-k2qqHj9VfKJAuj5v7shRWc.jpeg';
+// import NEWS_3 from 'assets/images/news/admin-dNwN6ziKXfmp8CbMSwhSCH.jpeg';
+// import NEWS_4 from 'assets/images/news/admin-isNdP2SUrzGMD7Am43k8VJ.jpeg';
+// import NEWS_5 from 'assets/images/news/admin-7KVvo4eg6FsAYsTYpquw2V.jpeg';
+// import NEWS_6 from 'assets/images/news/admin-hsibha7tGiCdbUGkdMCX84.jpeg';
+// import NEWS_7 from 'assets/images/news/admin-bke6o8HmZGAFLU31QEBev5.jpeg';
+import NEWS_1 from 'assets/images/news/1.jpg';
+import NEWS_2 from 'assets/images/news/2.jpg';
+import NEWS_3 from 'assets/images/news/3.jpg';
+import NEWS_4 from 'assets/images/news/4.jpg';
+import NEWS_5 from 'assets/images/news/5.jpg';
+import NEWS_6 from 'assets/images/news/6.jpg';
+
+// import { imageNameToPathConverter } from 'app/utils';
 // import * as Actions from 'app/store/actions';
 // import LoadingSpinner from 'app/main/shared/LoadingSpinner';
 
@@ -21,11 +35,13 @@ const newsList = [
     _id: '5ddab47f278fbd02becfb729',
     tags: ['Tags'],
     published: true,
-    title: 'Youth talent training camps and overseas research tours',
-    subTitle: 'Youth talent training camps and overseas research tours',
-    imageName: 'admin-oRudn2rF1FW3raumDcahmy.jpeg',
+    title:
+      'The Flag Passing Ceremony to Encourage Hundreds of Youth Overseas Volunteers by President Tsai',
+    subTitle:
+      'The Flag Passing Ceremony to Encourage Hundreds of Youth Overseas Volunteers by President Tsai',
+    imageName: NEWS_1,
     content:
-      'To promote the competitiveness of young people in the international arena and cultivate youth international affairs talents, the Youth International Affairs Talents Training Program will be sponsored every year in Taiwan (including the New South Countries International Affairs Talents Training Camp). In 2017, it trained an estimated 570 people, among whom 57 youths were selected to participate in overseas visits and exchanges. Workshops, salons, and more were operated after their return to augment the efficacy of the program.',
+      'President Tsai, on June 14 2019, met the 2019 Youth Overseas Peace Corps’ representatives and passed the 2019 Youth Overseas Peace Corps’ Flag before the youth start their volunteer trips. Their missions will  begin during their summer vacation. President Tsai encouraged the youth to establish a connection between Taiwan and the world. She hoped that the meaningful contributions Taiwanese youth have made can been seen by the world.',
     author: {
       _id: '5dda5819c3ff7305a3cf9e48',
       photoURL: 'assets/images/avatars/penguin.png',
@@ -39,13 +55,11 @@ const newsList = [
     _id: '5ddab406278fbd02becfb727',
     tags: ['Tags'],
     published: true,
-    title:
-      'Hosting the Global Youth Trends Forum- Youth Initiatives for Sustainable Development',
-    subTitle:
-      'Hosting the Global Youth Trends Forum- Youth Initiatives for Sustainable Development',
-    imageName: 'admin-k2qqHj9VfKJAuj5v7shRWc.jpeg',
+    title: 'Feng Xing overseas Swaziland Medical Service Team',
+    subTitle: 'Feng Xing overseas Swaziland Medical Service Team',
+    imageName: NEWS_2,
     content:
-      'To expand the international exchange and collaboration regarding youth affairs, since 2013, international youth, international youth affairs personnel, and international youth organization leaders had been invited to participate in the Global Youth Trends Forum. From 2013 to 2018, there were more than one thousand people participating in it. They participated in international exchange in youth affairs through seminars, group discussions, and summits on the international trends of the year to collaborate in the execution of the international youth affairs exchange of the year together. In result, participants will have their international outlook and their understanding of the global trends upgraded. It also helps promote youth participation and accumulate their experiences in international affairs in order to promote the international image and international profile of Taiwan.',
+      'Main services as dental treatment, fluoridize and health education. Prophylactic therapy is divided into two approaches, preventive and advanced treatment. From the first oral screening, the oral screening table was developed in cooperation with the local government hospital (Mbabane Government Hospital, MGH), the former dental department minister Dr. Mabuza, and revised with the local dental department form. The main criteria set out in the form to judge the treatment required to treat people, and the urgency of treatment prescribed by their standards, to take the next step of treatment or referral to a local hospital for screening table. Then enter the dental clinic, the emergency treatment of the dentist, including fissure sealant and emergency treatment, such as Intermediate Restorative Material (IRM) and Gingival Index (GI), tooth extraction, referral judgment, will use the dental equipment carried by the team for diagnosis and treatment. Due to the lack of local water resources and inadequate brushing concept in Swaziland, the clinic mainly focuses on the treatment of fluoride and strengthens local dental care. In the end, the people who underwent different treatments were given individualized health education propaganda. On the other hand, simple oral health education was also conducted for all the people and toothbrushes were distributed.',
     author: {
       _id: '5dda5819c3ff7305a3cf9e48',
       photoURL: 'assets/images/avatars/penguin.png',
@@ -59,11 +73,13 @@ const newsList = [
     _id: '5ddab3d4278fbd02becfb725',
     tags: ['tags'],
     published: true,
-    title: 'Hosting the Taiwan-Israel Youth Exchange',
-    subTitle: 'Hosting the Taiwan-Israel Youth Exchange',
-    imageName: 'admin-dNwN6ziKXfmp8CbMSwhSCH.jpeg',
+    title:
+      'National Defense Medical Center, the love in Cambodia International Volunteer Group',
+    subTitle:
+      'National Defense Medical Center, the love in Cambodia International Volunteer Group',
+    imageName: NEWS_3,
     content:
-      'To promote the youth exchange between Taiwan and Israel, the Youth Development Administration and Israel Youth Exchange Council collaborate to act as an actual administrative unit. Invited by the sponsor in Israel, in August every year, a group of 10 young people from Taiwan will be formed to visit Israel and participate in the International Convention for Gifted and Environmental Youth Leadership. In addition, in September, Taiwan will sponsor a Taiwan-Israel Youth Exchange Group, inviting young people with the experiences of public participation from both countries to conduct exchanges.',
+      'Through pre-departure visits and surveys, the analysis of service target feedback plans includes Preak kmeng Village and KKEV Orphanage Service Plans. Because of the shortage of local medical resources, the application was submitted to the hospital and the required items were donated through the assessment. In addition, with "hypertension studio" to enhance the basic knowledge of medical staff,  and through field visits to understand the living habits of local residents and the association of hypertension. Count the medical habits of local residents and recommend to medical institutions, explore the reasons for the popularity of head lice and design the content of education based on these. The primary school curriculum is divided into different ages, integrates the local education concept and refers to the local health education poster design course to avoid confusion about the concept of school children. Teacher training programs have improved the problems such as the short-term local service, the needs of the institutional and the lack of continuity of the course.',
     author: {
       _id: '5dda5819c3ff7305a3cf9e48',
       photoURL: 'assets/images/avatars/penguin.png',
@@ -77,13 +93,10 @@ const newsList = [
     _id: '5ddab9ea278fbd02becfb73c',
     tags: ['Tags'],
     published: true,
-    title:
-      'Subsidy Program for Subsidizing International Youth Travel and Exchange',
-    subTitle:
-      'Subsidy Program for Subsidizing International Youth Travel and Exchange',
-    imageName: 'admin-isNdP2SUrzGMD7Am43k8VJ.jpeg',
-    content:
-      'To encourage young people between the age of 18 to 35 to participate in conferences and activities sponsored by international non-governmental organizations or self-plan actions with an international profile that help promote Taiwan’s international image, it endorses the accumulation of the capacity and ability in international exchanges and broadens the international outlook of youths. From 2014-2018, it subsidized 133 youth teams. Each year, it invites teams to share their experiences of execution in a huge accomplishments presentation of conferences to encourage more youth in Taiwan to self-plan in order to articulate and conduct campaigns in the international arena.',
+    title: 'Taipei Medical University, Kingdom of Cambodia Service',
+    subTitle: 'Taipei Medical University, Kingdom of Cambodia Service',
+    imageName: NEWS_4,
+    content: `With "evidence-based" and "sustainable" service core spirit of cooperation in Battambang "parasite control program" and "health care package plan" with local schools. In the province of Siem Reap, cooperate with the TEP Culture and Education Association to conduct a “local education plan”. "Parasite control program" is to use scientific methods to track the rate of parasitic infections among schoolchildren and establish a local database. Use the picture book to present the knowledge of "parasitic prevention", enhance the knowledge of the children through interaction, and help improve the home environment through home visits. "Medical Package Program" is to distribute medical kits（First-aid-kit）in primary schools to teach local teachers about wound treatment methods, so that students can immediately treat wounds to reduce the infection rate. "People's Education Program" Based on the service concept of “sustainability” and the local organization TEP (TEP Culture and Education Association), the training of local seed teachers teaches the teaching knowledge to students in a relaxed and interesting way and brings them to various regions.`,
     author: {
       _id: '5dda5819c3ff7305a3cf9e48',
       photoURL: 'assets/images/avatars/penguin.png',
@@ -99,7 +112,7 @@ const newsList = [
     published: true,
     title: 'Subsidies for youth observers',
     subTitle: 'Subsidies for youth observers',
-    imageName: 'admin-7KVvo4eg6FsAYsTYpquw2V.jpeg',
+    imageName: NEWS_5,
     content:
       'To promote the “New South Policy”, young people between the age of 18 to 35 are encouraged to build up relations with the international non-governmental organizations in ASEAN, South Asia, New Zealand, Australia and other countries and observe the model of their operations and build up partnerships. At the same time, they are encouraged to understand local social and humanistic conditions for analysis and comparison in order to train the ability of our youth in participating in international affairs and enhance the pool of our New South talents. In 2017-2018, 23 youth were subsidized to visit New South countries to conduct in-depth training programs.',
     author: {
@@ -119,7 +132,7 @@ const newsList = [
       'Subsidies and Planning for the Youth Overseas Volunteer Service Program',
     subTitle:
       'Subsidies and Planning for the Youth Overseas Volunteer Service Program',
-    imageName: 'admin-hsibha7tGiCdbUGkdMCX84.jpeg',
+    imageName: NEWS_6,
     content:
       'To encourage youth between the age of 18 to 35 to participate in overseas (in areas outside Taiwan, Penghu Islands, Kinmen, and Mazu) volunteer work. Joining forces with civilian groups, universities and colleges, we invite youths to contribute their knowledge and specialties to provide valuable services to other areas and countries. We motivate the young people’s sense of social mission and responsibilities to fulfill their duties of being a global citizen and the members of the global village. Achieving the goal of SDGs of the United Nation to promote mutual understanding and exchange between our people and people in other countries. In 2005 to 2018, we subsidized 1,316 teams.',
     author: {
@@ -130,24 +143,6 @@ const newsList = [
     },
     createdAt: '2019-11-24T17:31:28.462Z',
     updatedAt: '2019-11-26T03:30:35.367Z'
-  },
-  {
-    _id: '5ddabe8e3484b40531a4b1f5',
-    tags: ['Tags'],
-    published: true,
-    title: 'Overseas experience and learning program',
-    subTitle: 'Overseas experience and learning program',
-    imageName: 'admin-bke6o8HmZGAFLU31QEBev5.jpeg',
-    content:
-      'To promote the international vision and enhance the global mobility of Taiwan’s youth, we encourage universities and colleges to include the concept of a Gap Year in their curriculum. Themes will be accurately designed by teachers to allow students to learn systematically in their programs. Students will also be guided to self-plan international travel scheme according to their interest and major in order to explore themselves, enrich their life experience, and cultivate their independence. With the application of this project, we are enthusiastic to expand diverse channels for our youths’ international learning and experience.',
-    author: {
-      _id: '5dda5819c3ff7305a3cf9e48',
-      photoURL: 'assets/images/avatars/penguin.png',
-      displayName: 'admin',
-      email: 'admin@admin.com'
-    },
-    createdAt: '2019-11-24T17:31:58.253Z',
-    updatedAt: '2019-11-26T03:30:23.956Z'
   }
 ];
 
@@ -157,7 +152,7 @@ function SectionNews(props) {
   // const isSyncing = NEWS.loading;
   // const newsList = NEWS.docs.filter(item => item.published);
 
-  console.log('newsList, ', newsList);
+  // console.log('newsList, ', newsList);
 
   useEffect(() => {
     // dispatch(Actions.syncHomePageNews());
@@ -185,7 +180,8 @@ function SectionNews(props) {
         >
           <img
             className="rounded-12 object-cover object-center max-w-md w-full"
-            src={imageNameToPathConverter(newsItem.imageName)}
+            // src={imageNameToPathConverter(newsItem.imageName)}
+            src={newsItem.imageName}
             alt={newsItem.title}
           />
           <h1 className="vertical-timeline-element-title text-white">

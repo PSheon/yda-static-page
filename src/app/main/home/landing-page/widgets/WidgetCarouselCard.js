@@ -3,20 +3,27 @@ import React from 'react';
 import Slider from 'react-animated-slider';
 
 // import { imageNameToPathConverter, avatarNameToPathConverter } from 'app/utils';
-import { imageNameToPathConverter } from 'app/utils';
+// import { imageNameToPathConverter } from 'app/utils';
 
 import 'react-animated-slider/build/horizontal.css';
 import './styles/slider-animations.css';
 
+import MAIN_LOGO_PNG from 'assets/images/logos/main-logo.png';
+import Carousel_1 from 'assets/images/news/admin-bJTb3djnChRxCCo5WUM1CF.jpeg';
+import Carousel_2 from 'assets/images/news/admin-fLFQPBQMW6pBWg9Qcfyjj3.png';
+import Carousel_3 from 'assets/images/news/admin-pCF9ipdWWMGNqw5TFZ9C6K.png';
+import Carousel_4 from 'assets/images/news/admin-iSd2mTu3y9D1Quo7njUJz9.png';
+import Carousel_5 from 'assets/images/news/admin-uoWrj8y3jkMvFRoPUCfHoz.png';
+
 const carousels = [
   {
     author: {
-      photoURL: 'assets/images/logos/main-logo.png',
+      photoURL: MAIN_LOGO_PNG,
       _id: '5dda5819c3ff7305a3cf9e48',
       displayName: 'admin',
       email: 'admin@admin.com'
     },
-    imageName: 'admin-bJTb3djnChRxCCo5WUM1CF.jpeg',
+    imageName: Carousel_1,
     linkAddress: '',
     published: true,
     subTitle: 'Hosting the Taiwan-Isreal Youth Exchange',
@@ -25,12 +32,12 @@ const carousels = [
   },
   {
     author: {
-      photoURL: 'assets/images/logos/main-logo.png',
+      photoURL: MAIN_LOGO_PNG,
       _id: '5dda5819c3ff7305a3cf9e48',
       displayName: 'admin',
       email: 'admin@admin.com'
     },
-    imageName: 'admin-fLFQPBQMW6pBWg9Qcfyjj3.png',
+    imageName: Carousel_2,
     linkAddress: '',
     published: true,
     subTitle: 'Youth Initiatives for Subtainable Development',
@@ -39,12 +46,12 @@ const carousels = [
   },
   {
     author: {
-      photoURL: 'assets/images/logos/main-logo.png',
+      photoURL: MAIN_LOGO_PNG,
       _id: '5dda5819c3ff7305a3cf9e48',
       displayName: 'admin',
       email: 'admin@admin.com'
     },
-    imageName: 'admin-pCF9ipdWWMGNqw5TFZ9C6K.png',
+    imageName: Carousel_3,
     linkAddress: '',
     published: true,
     subTitle: 'Hosting the Global Youth Trends Forum',
@@ -53,12 +60,12 @@ const carousels = [
   },
   {
     author: {
-      photoURL: 'assets/images/logos/main-logo.png',
+      photoURL: MAIN_LOGO_PNG,
       _id: '5dda5819c3ff7305a3cf9e48',
       displayName: 'admin',
       email: 'admin@admin.com'
     },
-    imageName: 'admin-iSd2mTu3y9D1Quo7njUJz9.png',
+    imageName: Carousel_4,
     linkAddress: '',
     published: true,
     subTitle: 'Hosting the Global Youth Trends Forum',
@@ -67,12 +74,12 @@ const carousels = [
   },
   {
     author: {
-      photoURL: 'assets/images/logos/main-logo.png',
+      photoURL: MAIN_LOGO_PNG,
       _id: '5dda5819c3ff7305a3cf9e48',
       displayName: 'admin',
       email: 'admin@admin.com'
     },
-    imageName: 'admin-uoWrj8y3jkMvFRoPUCfHoz.png',
+    imageName: Carousel_5,
     linkAddress: '',
     published: true,
     subTitle: 'Hosting the Global Youth Trends Forum',
@@ -93,10 +100,13 @@ function WidgetCarouselCard() {
           <div
             key={carousel._id}
             className="slider-content"
+            // style={{
+            //   background: `url('${imageNameToPathConverter(
+            //     carousel.imageName
+            //   )}') no-repeat center center`
+            // }}
             style={{
-              background: `url('${imageNameToPathConverter(
-                carousel.imageName
-              )}') no-repeat center center`
+              background: `url('${carousel.imageName}') no-repeat center center`
             }}
           >
             <div className="inner">

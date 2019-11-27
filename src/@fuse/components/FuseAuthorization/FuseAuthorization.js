@@ -75,7 +75,7 @@ class FuseAuthorization extends Component {
     return this.state.accessGranted ? (
       <React.Fragment>{this.props.children}</React.Fragment>
     ) : (
-      <Redirect to="/home" />
+      <Redirect to="/" />
     );
   }
 }

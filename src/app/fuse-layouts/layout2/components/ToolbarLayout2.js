@@ -4,6 +4,8 @@ import { AppBar, Hidden, Toolbar } from '@material-ui/core';
 import { ThemeProvider } from '@material-ui/styles';
 import { useSelector } from 'react-redux';
 
+import LOGO_PNG from 'assets/images/logos/logo.png';
+
 function ToolbarLayout2(props) {
   const config = useSelector(({ fuse }) => fuse.settings.current.layout.config);
   const toolbarTheme = useSelector(({ fuse }) => fuse.settings.toolbarTheme);
@@ -16,13 +18,9 @@ function ToolbarLayout2(props) {
             <Hidden lgUp>
               {/* <NavbarMobileToggleButton className="w-64 h-64 p-0" />
               <div className={classes.separator} /> */}
-              <Link to="/home">
+              <Link to="/">
                 {/* <Avatar className="mx-5" alt="logo" src="assets/images/logos/brand-logo.svg" /> */}
-                <img
-                  className="mx-5 h-40"
-                  alt="logo"
-                  src="assets/images/logos/logo.png"
-                />
+                <img className="mx-5 h-40" alt="logo" src={LOGO_PNG} />
               </Link>
               {/* <Typography className="text-16 font-light font-extrabold" color="textPrimary">青年職涯發展中心</Typography> */}
             </Hidden>

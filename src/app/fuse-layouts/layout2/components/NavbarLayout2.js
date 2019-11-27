@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { FuseScrollbars } from '@fuse';
 import Navigation from 'app/fuse-layouts/shared-components/Navigation';
 
+import LOGO_PNG from 'assets/images/logos/logo.png';
+
 function NavbarLayout2(props) {
   return (
     <div className="flex flex-auto justify-between items-center w-full h-full container p-0 lg:px-24">
@@ -10,15 +12,11 @@ function NavbarLayout2(props) {
                 <Logo />
             </div> */}
       <Link
-        to="/home"
+        to="/"
         role="button"
         className="flex flex-shrink-0 items-center pl-8 pr-16"
       >
-        <img
-          className="mx-5 h-40"
-          alt="logo"
-          src="/assets/images/logos/logo.png"
-        />
+        <img className="mx-5 h-40" alt="logo" src={LOGO_PNG} />
       </Link>
 
       <div className="flex items-center">
