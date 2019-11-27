@@ -1,0 +1,15 @@
+export const departmentsSuggestion = [
+  { label: '教育/公共行政', value: 'Education / Public Administration', },
+  { label: '藝術/人文/語文', value: 'Art / Humanities / Language', },
+  { label: '社會及行為科學/社會福利/新聞及圖書資訊', value: 'Social and Behavioral Science/Social Welfare/News and Book Information', },
+  { label: '餐飲/運輸/民生服務', value: 'Catering / Transportation / People Livelihood Services', },
+  { label: '商業/管理', value: 'business Administration', },
+  { label: '法律', value: 'legal', },
+  { label: '生命科學/環境/物理化學/地球科學', value: 'Life Science / Environment / Physical Chemistry / Earth Science', },
+  { label: '數學/統計', value: 'Mathematics / statistics', },
+  { label: '資訊/通訊/科技', value: 'Information / Communication / Technology', },
+  { label: '工程/製造/建築/營建', value: 'Engineering / Manufacturing / Construction / Construction', },
+  { label: '醫藥/衛生/職業衛生服務學門', value: 'Medical / Health / Occupational Health Services', },
+  { label: '農/林/漁/獸醫', value: 'Agriculture / Forestry / Fishing / Veterinary', },
+  { label: '其他', value: 'other', },
+]

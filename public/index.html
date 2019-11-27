@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="PSheon | Paul Jiang" />
+    <meta name="copyright" content="PSheon | Youth Salon" />
+
+    <link rel="author" href="https://github.com/PSheon" />
+    <link rel="publisher" href="https://github.com/PSheon" />
+    <meta
+      name="description"
+      content="經由各項活動與服務，協助青年朋友們打造專屬的個人品牌與形象，成就夢想！"
+    />
+    <meta
+      name="keywords"
+      content="YS青年職涯發展中心,Career學習網,學習,網路,職涯探索,職業訓練,就業資訊,創業資訊,成就夢想"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=5.0"
+    />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Facebook share -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="%REACT_APP_ROOT_URL%/home" />
+    <meta property="og:title" content="Youth Salon | 青年職涯發展中心" />
+    <meta
+      property="og:description"
+      content="經由各項活動與服務，協助青年朋友們打造專屬的個人品牌與形象，成就夢想！"
+    />
+    <meta
+      property="og:image"
+      content="%REACT_APP_ROOT_URL%/assets/images/ys.jpg"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="%REACT_APP_ROOT_URL%/home" />
+    <meta property="twitter:title" content="Youth Salon | 青年職涯發展中心" />
+    <meta
+      property="twitter:description"
+      content="經由各項活動與服務，協助青年朋友們打造專屬的個人品牌與形象，成就夢想！"
+    />
+    <meta
+      property="twitter:image"
+      content="%REACT_APP_ROOT_URL%/assets/images/ys.jpg"
+    />
+    <base href="/" />
+    <!--
+			manifest.json provides metadata used when your web app is added to the
+			homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="canonical" href="%REACT_APP_ROOT_URL%/home" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="%PUBLIC_URL%/assets/fonts/material-outline-icons/styles.css"
+      rel="stylesheet"
+    />
+    <link
+      href="%PUBLIC_URL%/assets/fonts/meteocons/style.css"
+      rel="stylesheet"
+    />
+
+    <noscript id="jss-insertion-point"></noscript>
+    <!--
+			Notice the use of %PUBLIC_URL% in the tags above.
+			It will be replaced with the URL of the `public` folder during the build.
+			Only files inside the `public` folder can be referenced from the HTML.
+
+			Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+			work correctly both with client-side routing and a non-root public URL.
+			Learn how to configure a non-root public URL by running `npm run build`.
+		-->
+    <title>Youth Overseas Peace Corps</title>
+
+    <!-- FUSE Splash Screen CSS -->
+    <style type="text/css">
+      #fuse-splash-screen {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: #fafafa;
+        z-index: 99999;
+        pointer-events: none;
+      }
+
+      #fuse-splash-screen .center {
+        display: block;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      #fuse-splash-screen .logo {
+        width: 250px;
+        margin: 0 auto;
+      }
+
+      #fuse-splash-screen .logo img {
+        filter: drop-shadow(0px 10px 6px rgba(0, 0, 0, 0.2));
+      }
+
+      /* #fuse-splash-screen .title-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #fuse-splash-screen .title-wrapper .title {
+      color: #000000d6;
+      font-weight: 800;
+    } */
+    </style>
+    <!-- / FUSE Splash Screen CSS -->
+    <!-- Map box -->
+    <!-- <link href="https://api.mapbox.com/mapbox-gl-js/v1.0.0/mapbox-gl.css" rel="stylesheet" crossorigin="anonymous" /> -->
+  </head>
+
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.<br />
+      YS 需要啟用 javaScript
+    </noscript>
+    <div id="root" class="flex">
+      <!-- FUSE Splash Screen -->
+      <div id="fuse-splash-screen">
+        <div class="center">
+          <div class="logo">
+            <img width="250" src="assets/images/logos/logo.png" alt="logo" />
+          </div>
+          <!-- <div class="title-wrapper">
+          <h1 class="title">Youth Salon</h1>
+        </div> -->
+        </div>
+      </div>
+      <!-- / FUSE Splash Screen -->
+    </div>
+  </body>
+</html>
