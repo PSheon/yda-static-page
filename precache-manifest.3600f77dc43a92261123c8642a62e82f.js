@@ -1,14 +1,7 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "278c0e1694b2edcc9eb9e7c5888a0ab5",
+    "revision": "04a110007925d3721cfc4350b0fb9740",
     "url": "/yda-static-page/index.html"
-  },
-  {
-    "url": "/yda-static-page/precache-manifest.e6a1a6145f83e9a7cce133d67faf3920.js"
-  },
-  {
-    "revision": "a7089e52d02a4c3f7e39bd20f11f897b",
-    "url": "/yda-static-page/service-worker.js"
   },
   {
     "revision": "bc45f2457669854dd24b",
@@ -23,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/css/5.bb08beef.chunk.css"
   },
   {
-    "revision": "0cd45e6f32cf9f02c117",
+    "revision": "f79c23a95565b0bb4517",
     "url": "/yda-static-page/static/css/7.91434c72.chunk.css"
   },
   {
@@ -31,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/css/8.c7893c5f.chunk.css"
   },
   {
-    "revision": "b5e55e363dc68f70f86e",
-    "url": "/yda-static-page/static/css/main.18674680.chunk.css"
+    "revision": "afca35a1a00a43552348",
+    "url": "/yda-static-page/static/css/main.f13cc121.chunk.css"
   },
   {
     "revision": "bc45f2457669854dd24b",
@@ -123,8 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/js/6.b83462a4.chunk.js"
   },
   {
-    "revision": "0cd45e6f32cf9f02c117",
-    "url": "/yda-static-page/static/js/7.9e6cde80.chunk.js"
+    "revision": "f79c23a95565b0bb4517",
+    "url": "/yda-static-page/static/js/7.2c8f1652.chunk.js"
   },
   {
     "revision": "3d8af0ca7e3880024cbb",
@@ -135,12 +128,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/js/9.861c451d.chunk.js"
   },
   {
-    "revision": "b5e55e363dc68f70f86e",
+    "revision": "afca35a1a00a43552348",
     "url": "/yda-static-page/static/js/main.690fc2ff.chunk.js"
   },
   {
-    "revision": "a0861cf172bdde286a98",
-    "url": "/yda-static-page/static/js/runtime-main.7be85add.js"
+    "revision": "7799b24cfff5e40ea7a8",
+    "url": "/yda-static-page/static/js/runtime-main.6a39a130.js"
   },
   {
     "revision": "5ba6f8b1910a06fdcd484212bfa40614",
