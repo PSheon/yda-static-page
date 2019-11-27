@@ -1,13 +1,13 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5883da82aa95a9982f9e06fffcaca141",
+    "revision": "f89572b781b43820e09f920f0f00b6fe",
     "url": "/yda-static-page/index.html"
   },
   {
-    "url": "/yda-static-page/precache-manifest.2d7a18459899f2b8495d1c5ccb2da169.js"
+    "url": "/yda-static-page/precache-manifest.2ae8bcb371acdc74c5613929af7d78f6.js"
   },
   {
-    "revision": "44ea9bfb2c07ca403585edf4b2e48772",
+    "revision": "15fe5a81965c05660a38810552c08039",
     "url": "/yda-static-page/service-worker.js"
   },
   {
