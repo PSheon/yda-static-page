@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/yda-static-page/precache-manifest.1104c08522ddfde27f5993cf276fee67.js"
+  "/yda-static-page/precache-manifest.2d7a18459899f2b8495d1c5ccb2da169.js"
 );
 
 self.addEventListener('message', (event) => {
