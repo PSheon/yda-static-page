@@ -1,21 +1,21 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "373f186f4790516c95072301cec5bd94",
+    "revision": "7969a89833ba9b7c55f7c94e4e72f9ea",
     "url": "/yda-static-page/index.html"
   },
   {
-    "url": "/yda-static-page/precache-manifest.a1f3a5f4db05c4c1d9ef43b47e868f14.js"
+    "url": "/yda-static-page/precache-manifest.1c9cd5d04c34323262a6f3f8056793fa.js"
   },
   {
-    "revision": "4e529eafb4f1bcbe93f6982cdc69e1fb",
+    "revision": "14e3308adcda2db6c3a913815952435d",
     "url": "/yda-static-page/service-worker.js"
   },
   {
-    "revision": "53872196b3470fbbd62d",
+    "revision": "850b868e77ae570b2c38",
     "url": "/yda-static-page/static/css/0.ab206dc4.chunk.css"
   },
   {
-    "revision": "fc2585bdeb8ecbcc3785",
+    "revision": "fc24475a15475ee54a62",
     "url": "/yda-static-page/static/css/1.3f022cd7.chunk.css"
   },
   {
@@ -23,124 +23,124 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/css/5.bb08beef.chunk.css"
   },
   {
-    "revision": "3730f0644cacd21d5708",
-    "url": "/yda-static-page/static/css/7.c7893c5f.chunk.css"
+    "revision": "7bb30f74b16033b4bf79",
+    "url": "/yda-static-page/static/css/7.245324ed.chunk.css"
   },
   {
-    "revision": "0cf0257076980cdb4b33",
-    "url": "/yda-static-page/static/css/8.850a98cd.chunk.css"
+    "revision": "5aa626d81c3df8ba13b7",
+    "url": "/yda-static-page/static/css/8.c7893c5f.chunk.css"
   },
   {
-    "revision": "9ace9ec7c410cd8941ea",
+    "revision": "dd17466e4282ac970d8f",
     "url": "/yda-static-page/static/css/main.f13cc121.chunk.css"
   },
   {
-    "revision": "53872196b3470fbbd62d",
-    "url": "/yda-static-page/static/js/0.0da498e3.chunk.js"
+    "revision": "850b868e77ae570b2c38",
+    "url": "/yda-static-page/static/js/0.ff83e2c1.chunk.js"
   },
   {
-    "revision": "fc2585bdeb8ecbcc3785",
-    "url": "/yda-static-page/static/js/1.c590c32f.chunk.js"
+    "revision": "fc24475a15475ee54a62",
+    "url": "/yda-static-page/static/js/1.6643f681.chunk.js"
   },
   {
-    "revision": "df18fef8b5c917ee5b9d",
-    "url": "/yda-static-page/static/js/10.87a3d131.chunk.js"
+    "revision": "aebfafce3eba0e1ca386",
+    "url": "/yda-static-page/static/js/10.6054854d.chunk.js"
   },
   {
-    "revision": "0e6d16c1884906aa0aee",
-    "url": "/yda-static-page/static/js/11.5864d5e4.chunk.js"
+    "revision": "bf1893e6cc9e04b9fb4a",
+    "url": "/yda-static-page/static/js/11.7a423f63.chunk.js"
   },
   {
-    "revision": "3d5ca6b138507d48cd79",
-    "url": "/yda-static-page/static/js/12.d3279d7f.chunk.js"
+    "revision": "40d367286dd50c243fe4",
+    "url": "/yda-static-page/static/js/12.0e6faca2.chunk.js"
   },
   {
-    "revision": "eaad62b54763bf3959c4",
-    "url": "/yda-static-page/static/js/13.394b0357.chunk.js"
+    "revision": "430b46b995a2d9bc667f",
+    "url": "/yda-static-page/static/js/13.3a5b9679.chunk.js"
   },
   {
-    "revision": "b9057e0fbddfe09ad79c",
-    "url": "/yda-static-page/static/js/14.e2e32d8e.chunk.js"
+    "revision": "4acd24e598296111427c",
+    "url": "/yda-static-page/static/js/14.060d99ea.chunk.js"
   },
   {
-    "revision": "ee443eac918a6b518130",
-    "url": "/yda-static-page/static/js/15.2fc5c8f4.chunk.js"
+    "revision": "5bfb52d8a4a0dad2d6cd",
+    "url": "/yda-static-page/static/js/15.6a63f880.chunk.js"
   },
   {
-    "revision": "54ca54725fe1ee4272f3",
-    "url": "/yda-static-page/static/js/16.51a63772.chunk.js"
+    "revision": "4b3f8b8546261ea17019",
+    "url": "/yda-static-page/static/js/16.89f5c813.chunk.js"
   },
   {
-    "revision": "8b25e65f57d9c48b08b7",
-    "url": "/yda-static-page/static/js/17.f9516025.chunk.js"
+    "revision": "ce770c048cc67666b6d0",
+    "url": "/yda-static-page/static/js/17.f58e93f9.chunk.js"
   },
   {
-    "revision": "6470e4fec78ea9e619bd",
-    "url": "/yda-static-page/static/js/18.2937e59a.chunk.js"
+    "revision": "cb5d583a6d2ccef7959f",
+    "url": "/yda-static-page/static/js/18.2585a1b1.chunk.js"
   },
   {
-    "revision": "89de9960f6291e9e5c8a",
-    "url": "/yda-static-page/static/js/19.b976a0c9.chunk.js"
+    "revision": "69132e6c72e053e0c67a",
+    "url": "/yda-static-page/static/js/19.59fc5f27.chunk.js"
   },
   {
     "revision": "62897f81c1e7f5e232b4",
     "url": "/yda-static-page/static/js/2.18d1fb35.chunk.js"
   },
   {
-    "revision": "123bb3abf812ec023a50",
-    "url": "/yda-static-page/static/js/20.0cf1a8f7.chunk.js"
+    "revision": "904671590eb484debd16",
+    "url": "/yda-static-page/static/js/20.21131448.chunk.js"
   },
   {
-    "revision": "fad2087f4f56d91d147f",
-    "url": "/yda-static-page/static/js/21.b1d9d7fa.chunk.js"
+    "revision": "cc651882d9e33258d0cf",
+    "url": "/yda-static-page/static/js/21.55549cac.chunk.js"
   },
   {
-    "revision": "2dd9f7f30381d30ba84e",
-    "url": "/yda-static-page/static/js/22.db688c90.chunk.js"
+    "revision": "1e6339d17c097894ab95",
+    "url": "/yda-static-page/static/js/22.7b436366.chunk.js"
   },
   {
-    "revision": "b12dc5f40bab9d80a13e",
-    "url": "/yda-static-page/static/js/23.eac057c7.chunk.js"
+    "revision": "e36d8bd7f1503a7e592e",
+    "url": "/yda-static-page/static/js/23.6e75a98c.chunk.js"
   },
   {
-    "revision": "ac07bc6ae3b6b352c97a",
-    "url": "/yda-static-page/static/js/24.84b93516.chunk.js"
+    "revision": "42f0df7459712b6f0014",
+    "url": "/yda-static-page/static/js/24.4470637b.chunk.js"
   },
   {
-    "revision": "eb27d5de6332db692b4b",
-    "url": "/yda-static-page/static/js/25.ae8572fa.chunk.js"
+    "revision": "2e29934191d0f4b7cc35",
+    "url": "/yda-static-page/static/js/25.698b4dbb.chunk.js"
   },
   {
-    "revision": "4927a5c49387b16cbddd",
-    "url": "/yda-static-page/static/js/26.9dffadad.chunk.js"
+    "revision": "06fea4630334321dfa44",
+    "url": "/yda-static-page/static/js/26.3a9ad740.chunk.js"
   },
   {
     "revision": "e2fefc288a1764c363f4",
     "url": "/yda-static-page/static/js/5.29e156b6.chunk.js"
   },
   {
-    "revision": "34bb88f64e8f9c0c1b8e",
-    "url": "/yda-static-page/static/js/6.20f1ad40.chunk.js"
+    "revision": "02289ffaf9286a71b276",
+    "url": "/yda-static-page/static/js/6.86a20f57.chunk.js"
   },
   {
-    "revision": "3730f0644cacd21d5708",
-    "url": "/yda-static-page/static/js/7.a578283c.chunk.js"
+    "revision": "7bb30f74b16033b4bf79",
+    "url": "/yda-static-page/static/js/7.3f1c430b.chunk.js"
   },
   {
-    "revision": "0cf0257076980cdb4b33",
-    "url": "/yda-static-page/static/js/8.31666474.chunk.js"
+    "revision": "5aa626d81c3df8ba13b7",
+    "url": "/yda-static-page/static/js/8.4880cf1b.chunk.js"
   },
   {
-    "revision": "22ec8241ec154aa7d4b3",
-    "url": "/yda-static-page/static/js/9.9d258e39.chunk.js"
+    "revision": "eb5c3525b80c791bbecc",
+    "url": "/yda-static-page/static/js/9.cc67790e.chunk.js"
   },
   {
-    "revision": "9ace9ec7c410cd8941ea",
-    "url": "/yda-static-page/static/js/main.c369e051.chunk.js"
+    "revision": "dd17466e4282ac970d8f",
+    "url": "/yda-static-page/static/js/main.6f03cbb7.chunk.js"
   },
   {
-    "revision": "23ebcdf9487e72812e80",
-    "url": "/yda-static-page/static/js/runtime-main.ac0f6f36.js"
+    "revision": "49a0d679c5b52d42a416",
+    "url": "/yda-static-page/static/js/runtime-main.7ea623f9.js"
   },
   {
     "revision": "5ba6f8b1910a06fdcd484212bfa40614",
@@ -169,6 +169,26 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "7886242d2ff5cb5c8c40920c89bf8077",
     "url": "/yda-static-page/static/media/Friends.7886242d.jpg"
+  },
+  {
+    "revision": "9b2a828137a0d7981c4e1522332fec5f",
+    "url": "/yda-static-page/static/media/carousel-1.9b2a8281.jpg"
+  },
+  {
+    "revision": "2702b6e01443838863a0d9d5378880cc",
+    "url": "/yda-static-page/static/media/carousel-2.2702b6e0.jpg"
+  },
+  {
+    "revision": "3d55694ff155b3d5f1e2359ba857cab7",
+    "url": "/yda-static-page/static/media/carousel-3.3d55694f.jpg"
+  },
+  {
+    "revision": "c5852faf9f2697f1d68db87a96c6cefc",
+    "url": "/yda-static-page/static/media/carousel-4.c5852faf.jpg"
+  },
+  {
+    "revision": "b7a8235532aaaf0833cc47a506921351",
+    "url": "/yda-static-page/static/media/carousel-5.b7a82355.jpg"
   },
   {
     "revision": "04afd0baf1c6903fe22945731c11fa68",
