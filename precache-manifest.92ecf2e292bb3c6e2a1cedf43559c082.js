@@ -1,13 +1,13 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44b33ac6cba311dca36b8321db508bad",
+    "revision": "b5e47133033d0d81d438f65c99f1b248",
     "url": "/yda-static-page/index.html"
   },
   {
-    "url": "/yda-static-page/precache-manifest.323bafe7c9b9ff478258b1e961e0d0db.js"
+    "url": "/yda-static-page/precache-manifest.ab201943e7e004ef6751b84f9ca57a0e.js"
   },
   {
-    "revision": "87b817d7ce482e6f6b886458452994cb",
+    "revision": "6563d937857994a47c798a329c2e34ed",
     "url": "/yda-static-page/service-worker.js"
   },
   {
@@ -19,7 +19,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/css/1.3f022cd7.chunk.css"
   },
   {
-    "revision": "e2fefc288a1764c363f4",
+    "revision": "1442d1649616db475556",
     "url": "/yda-static-page/static/css/5.bb08beef.chunk.css"
   },
   {
@@ -31,7 +31,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/css/8.c7893c5f.chunk.css"
   },
   {
-    "revision": "dd17466e4282ac970d8f",
+    "revision": "c0b2de6ada8e9beffdfd",
     "url": "/yda-static-page/static/css/main.f13cc121.chunk.css"
   },
   {
@@ -115,8 +115,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/js/26.3a9ad740.chunk.js"
   },
   {
-    "revision": "e2fefc288a1764c363f4",
-    "url": "/yda-static-page/static/js/5.29e156b6.chunk.js"
+    "revision": "1442d1649616db475556",
+    "url": "/yda-static-page/static/js/5.e22ee29e.chunk.js"
   },
   {
     "revision": "02289ffaf9286a71b276",
@@ -135,8 +135,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/yda-static-page/static/js/9.cc67790e.chunk.js"
   },
   {
-    "revision": "dd17466e4282ac970d8f",
-    "url": "/yda-static-page/static/js/main.6f03cbb7.chunk.js"
+    "revision": "c0b2de6ada8e9beffdfd",
+    "url": "/yda-static-page/static/js/main.cb17c2d1.chunk.js"
   },
   {
     "revision": "67a76cf4e7ac6535838a",
